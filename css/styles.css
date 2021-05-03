@@ -19,6 +19,15 @@ body {
     justify-content: space-between;
 }
 
+.navigation a {
+    color: rgba(55, 55, 55, 1);
+    transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+    color: goldenrod;
+}
+
 .header-navs a{
     text-decoration: none;
     font-style: normal;
@@ -33,6 +42,13 @@ body {
     border: 2px solid #717CFF;
     border-radius: 11px;
     padding: 13px 33px 0px 33px;
+    transition: color 0.3s ease,
+    border 0.3s ease;
+}
+
+.apply-button:hover {
+    border: 2px solid #000;
+    color: #717CFF;
 }
 
 /* boshlandi */
@@ -79,14 +95,19 @@ body {
     font-size: 22px;
     line-height: 40px;
     color: #FFFFFF;
-    
-}
-
-.hero-site__link-span {  
     display: inline-block;
-    background: #717CFF;
+    background-color: #717CFF;
     border-radius: 11px;
     padding: 10px 35px 10px 34px;
+    border: 1px solid transparent;
+    transition: color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.hero-site__link-span:hover {  
+    color: #717CFF;
+    background-color: #fff;
+    border: 1px solid #717CFF;
 }
 
 .site-hero__link-vector {
@@ -219,6 +240,10 @@ body {
 
 .card-link {
     align-items: flex-start;
+    transition: opacity 0.3s ease;
+}
+.card-link:hover {
+    opacity: 0.3;
 }
 
 .our-services__card-link {
@@ -286,7 +311,7 @@ body {
     padding-bottom: 62px;
 }
 
-.site-news__button{
+.site-news__button {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
@@ -297,6 +322,15 @@ body {
     background: #717CFF;
     border-radius: 11px;
     padding: 10px 35px 10px 34px;
+    transition: color 0.3s ease,
+    background-color 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.site-news__button:hover {
+    color: #717CFF;
+    background-color: #fff;
+    border: 1px solid #717cff;
 }
 
 .site-news__button span {  
@@ -304,6 +338,13 @@ body {
 }
 
 /* site news tugadi */
+
+
+.upcoming-uni__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .upcoming-uni__title {
     width: 455px;
@@ -328,7 +369,14 @@ body {
     color: #7D7D7D;
 }
 
+.data-title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 .left-side__card {
+    padding: 30px;
     width: 540px;
     height: 308px;
     background: #FFFFFF;
@@ -374,13 +422,43 @@ body {
     line-height: 20px;
     letter-spacing: 0.439286px;
     color: #717CFF;
+    transition: opacity 0.3s ease;
 }
 
+.link-time__left-side span {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.link-time__left-side span:hover {
+    opacity: 0.7;
+}
+.right-side__card {
+    width: 540px;
+    height: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+    padding: 30px;
+}
 
+.upcoming-uni__card-title {
+    text-transform: capitalize;
+}
 
+.link-time__right__side {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: right;
+    letter-spacing: 0.444444px;
+    color: #373737;
+}
 
-
-
+.upcoming-uni__time {
+    padding: 13px;
+    background-color: #ddd;
+}
 
 
 
