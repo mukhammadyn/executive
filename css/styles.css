@@ -96,3 +96,152 @@ body {
     display: flex;
     justify-content: start;
 }
+/* univer side */
+
+.featured-universities {
+    height: 423px;
+    background-color: #FAFAFA;
+}
+.featured-unv__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #373737;
+    mix-blend-mode: normal;
+    opacity: 0.73;
+}
+
+.featured-unv__logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.link-button {
+    display: inline-block;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(124, 124, 124, 0.318837);
+}
+
+.link-button:active {
+    border-radius: 50%;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background: #717CFF;
+}
+
+.link-button:focus {
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #717CFF;
+}
+.link-button:hover {
+    border: 2px solid blue;
+}
+
+/* cards */
+.our-services__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+}
+
+.our-services__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    width: 946px;
+    height: 80px;
+}
+
+.our-services__cards-top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our-services__card {
+    width: 344px;
+    height: 351px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;  
+}
+
+.our-services__card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    width: 279px;
+    height: 37px;
+}
+
+.our-services__card-text {
+    width: 296px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+}
+
+.card-link {
+    align-items: flex-start;
+}
+
+.our-services__card-link {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+}
+
+
+.our-services__cards-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
