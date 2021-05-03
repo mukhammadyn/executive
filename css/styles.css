@@ -14,6 +14,11 @@ body {
     align-items: center;
 }
 
+.header-navs {
+    display: flex;
+    justify-content: space-between;
+}
+
 .header-navs a{
     text-decoration: none;
     font-style: normal;
@@ -24,16 +29,21 @@ body {
 }
 
 .apply-button {
+    display: inline-block;
     border: 2px solid #717CFF;
     border-radius: 11px;
-    padding: 9px 35px
+    padding: 13px 33px 0px 33px;
 }
 
 /* boshlandi */
+.hero-site {
+    display: flex;
+    justify-content: space-between;
+}
 
 .hero-site-title {
-    width: 542;
-    height: 154;
+    width: 542px;
+    height: 154px;
     font-style: normal;
     font-weight: 900;
     font-size: 56px;
@@ -52,12 +62,37 @@ body {
 }
 
 .hero-site-text {
-    width: 632;
-    height: 80;
+    width: 632px;
+    height: 80px;
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
     line-height: 38px;
     color: #7D7D7D;
     display: inline-block;
+}
+
+.hero-site__link-span {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+    
+}
+.hero-site__link-span {  
+    display: inline-block;
+    background: #717CFF;
+    border-radius: 11px;
+    padding: 10px 35px 10px 34px;
+}
+.site-hero__link-vector {
+    padding-left: 34px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: start;
 }
