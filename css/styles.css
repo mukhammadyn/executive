@@ -305,6 +305,81 @@ body {
 
 /* site news tugadi */
 
+.upcoming-uni__title {
+    width: 455px;
+    height: 54px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+}
+
+.upcoming-uni__text {
+    width: 949px;
+    height: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.left-side__card {
+    width: 540px;
+    height: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 15px;
+}
+
+.upcoming-uni__time {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    text-align: center;
+    color: #717CFF;
+}
+
+.upcoming-uni__card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #37474F;
+    width: 351px;
+    height: 76px;
+}
+
+.upcoming-uni__card-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.444444px;
+    color: rgba(55, 71, 79, 0.721569);
+    width: 481px;
+    height: 90px;
+}
+
+.link-time__left-side a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+}
+
+
+
+
+
 
 
 
