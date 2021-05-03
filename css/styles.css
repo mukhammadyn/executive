@@ -251,6 +251,25 @@ body {
     height: 406px;
 }
 
+.site-news__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+}
+
+.site-news__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+}
+
 .news-card__img-title {
     font-style: normal;
     font-weight: bold;
@@ -284,7 +303,7 @@ body {
     text-transform: capitalize;
 }
 
-
+/* site news tugadi */
 
 
 
