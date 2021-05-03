@@ -81,12 +81,14 @@ body {
     color: #FFFFFF;
     
 }
+
 .hero-site__link-span {  
     display: inline-block;
     background: #717CFF;
     border-radius: 11px;
     padding: 10px 35px 10px 34px;
 }
+
 .site-hero__link-vector {
     padding-left: 34px;
 }
@@ -164,6 +166,7 @@ body {
     text-align: center;
     letter-spacing: -0.4625px;
     color: #373737;
+    text-transform: capitalize;
 }
 
 .our-services__text {
@@ -177,12 +180,14 @@ body {
     height: 80px;
 }
 
-.our-services__cards-top {
+.our-services__cards {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .our-services__card {
+    padding: 29px 31px 34px 31px;
     width: 344px;
     height: 351px;
     background: #FFFFFF;
@@ -198,6 +203,7 @@ body {
     color: #37474F;
     width: 279px;
     height: 37px;
+    text-transform: capitalize;
 }
 
 .our-services__card-text {
@@ -228,16 +234,55 @@ body {
 }
 
 
-.our-services__cards-bottom {
+
+/* our services tugadi */
+
+.news-cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    background: #FAFAFA;
 }
 
+.news-card {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+    border-radius: 10px;
+    width: 344px;
+    height: 406px;
+}
 
+.news-card__img-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #252525;
+    padding-left: 26px;
+    padding-bottom: 62px;
+}
 
+.news-card time {
+    padding-left: 26px;
+    padding-top: 28px;
+    padding-bottom: 62px;
+}
 
+.site-news__button{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+    display: inline-block;
+    background: #717CFF;
+    border-radius: 11px;
+    padding: 10px 35px 10px 34px;
+}
 
-
+.site-news__button span {  
+    text-transform: capitalize;
+}
 
 
 
