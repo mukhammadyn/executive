@@ -474,6 +474,7 @@ body {
     height: 10px;
     border-radius: 50%;
     background: rgba(124, 124, 124, 0.318837);
+    padding: 0;
 }
 
 .link-button__upcoming:active {
