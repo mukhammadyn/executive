@@ -175,7 +175,9 @@ body {
     background: #717CFF;
 }
 .link-button:hover {
-    border: 2px solid blue;
+    outline: none;
+    border: none;
+    border: 1px solid blue;
 }
 
 /* cards */
@@ -460,5 +462,38 @@ body {
     background-color: #ddd;
 }
 
+.btns-upcoming {
+    display: flex;
+    justify-content: center;
+}
 
+.link-button__upcoming {
+    display: inline-block;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(124, 124, 124, 0.318837);
+}
 
+.link-button__upcoming:active {
+    border-radius: 50%;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background: #717CFF;
+}
+
+.link-button__upcoming:focus {
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #717CFF;
+}
+.link-button__upcoming:hover {
+    outline: none;
+    border: none;
+    border: 1px solid blue;
+}
