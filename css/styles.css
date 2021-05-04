@@ -794,13 +794,6 @@ html {
 }
 
 
-
-
-
-
-
-
-
 .covered-card__button {
     display: inline-block;
     border: none;
@@ -837,5 +830,251 @@ html {
 
 
 .first-button__covered {
-    margin-upcoming__btn: 0;
+
 }
+
+/* testemonial-> */
+
+.testemonial-section {
+    padding-top: 155px;
+    padding-bottom: 100px;
+}
+
+.testemonial-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    width: 192px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.testemonial-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    color: #7D7D7D;
+    width: 949px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.testemonial-cards {
+    margin-top: 142px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.testemonial-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+    border-radius: 29px;
+    width: 503px;
+    height: 332px;
+    padding: 44px 34px 46px;
+}
+
+.people-name__image {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.people-name {
+    width: 167px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #37474F;
+}
+
+.people-profession {
+    width: 179px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #37474F;
+    mix-blend-mode: normal;
+    opacity: 0.65;
+}
+
+.people-information {
+    margin-top: 30px;
+    width: 435px;
+    height: 155px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    color: rgba(55, 71, 79, 0.721569);
+}
+
+.name-profession {
+    margin-left: 28px;
+}
+
+.btns-testemonial {
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.link-button__testemonial {
+    display: inline-block;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(124, 124, 124, 0.318837);
+    padding: 0;
+    margin-left: 21px;
+}
+
+.first-btn {
+    margin-left: 0;
+}
+
+.link-button__testemonial:active {
+    border-radius: 50%;
+    border: none;
+    width: 14px;
+    height: 14px;
+    background: #717CFF;
+}
+
+.link-button__testemonial:focus {
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    width: 10px;
+    height: 10px;
+    background: #717CFF;
+}
+
+.link-button__testemonial:hover {
+    outline: none;
+    border: none;
+    border: 1px solid blue;
+}
+
+
+/* offer section */
+
+.offer-section {
+    background-color: #FAFAFA;
+    padding-top: 82px;
+    padding-bottom: 84px;
+
+}
+
+.offer-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #252525;
+}
+
+.offer-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 262px;
+    height: 64px;
+    background: #717CFF;
+    border-radius: 11px;
+    /* padding: 12px 104px 12px 34px; */
+}
+
+.offer-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+/* foooter -> */
+
+.footer-site__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 64px;
+    padding-bottom: 45px;
+}
+
+.footer-site {
+    background-color: rgba(113, 124, 255, 1);
+    
+    
+}
+
+.footer-lists {
+    margin-bottom: 55px;
+}
+
+.footer-list {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #EEEEEE;
+    margin-top: 23px;
+    padding: 0;
+}
+.concord {
+    margin-bottom: 34px;
+}
+
+.concord-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #EEEEEE;
+    margin-top: 26px;
+    width: 343px;
+    height: 64px;
+}
+
+.copyed-concord {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #EEEEEE;
+    width: 330px;
+    height: 32px;
+    margin-top: 58px;
+}
+
+.footer-icon {
+    margin-right: 28px;
+}
+
+
+
